@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пуляев Д. В. 5130903/30302 вариант 2(доп)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Магазин бытовой техники</h1>
+        
+        <div class="input-group">
+            <div class="flex-container">
+                <label for="age">Ваш возраст:</label>
+                <select id="age">
+                    <option value=""></option>
+                    <option value="young">До 20 лет</option>
+                    <option value="adult">От 20 до 65 лет</option>
+                    <option value="senior">Старше 65 лет</option>
+                </select>
+
+                <button onclick="calculatePrice()">Выбрать</button>
+            </div>
+        </div>
+
+        <div id="result" class="result hidden">
+            <!-- Результат расчёта -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

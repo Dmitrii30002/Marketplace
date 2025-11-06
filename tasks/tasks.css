@@ -1,0 +1,11 @@
+.flex-tasks {
+    display: flex;
+    gap: 350px;
+    width: 100%;
+    margin-bottom: 100x;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
