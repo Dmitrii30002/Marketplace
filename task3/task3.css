@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin: 25px 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 13px;
+    font-weight: bold;
+    color: #34495e;
+    font-size: 18px;
+}
+
+select {
+    width: 120px;
+    padding: 12px;
+    margin-left: 30px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 150px;
+    margin-left: 30px;
+    padding: 15px;
+    background: #46525a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #cf3dd4;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    text-align: center;
+}
+
+.appliance-image {
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.discount-badge {
+    padding: 8px 15px;
+    background: #e74c3c;
+    color: white;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.price-info {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+.hidden {
+    display: none;
+}
+
+.age-info {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 5px;
+    font-size: 14px;
+}

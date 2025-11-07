@@ -1,0 +1,109 @@
+.flex-container {
+    display: flex;
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    border: 1px solid rgb(173, 182, 190);
+    box-shadow: 1px 1px 1px rgb(233, 226, 212);
+    border-radius: 10px;
+    width: 80%;
+    height: 150px;
+}
+
+.CardText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: small;
+    line-height: 10px;
+    gap: 0px;
+}
+
+.card-image {
+    width: 15%;
+    height: 60%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.check {
+    position: relative;
+    top: 30%;
+    width: 20%;
+    height: 20%;
+    border-radius: 3px;
+}
+
+.goshop {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.goshop-image {
+    width: 500px;
+    height: 500px;
+}
+
+.sum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.sum-text {
+    font-size: 30px;
+}
+
+.sum-btn {
+    text-align: center;
+    vertical-align: middle;
+    height: 90px;
+    width: 150px;
+    color: beige;
+    background-color: rgb(83, 173, 247);
+    top: 50%;
+    left: 30%;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.sum-btn:hover {
+    filter: brightness(70%);
+    text-decoration: none;
+}
+
+@media (max-width:650px) {
+
+    .flex-container {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .card-image {
+        width: 30%;
+        height: 60%;
+    }
+
+    .card {
+        gap: 10px;
+        height: 170px;
+    }
+}
